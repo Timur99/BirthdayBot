@@ -6,8 +6,8 @@ from threading import Thread
 from telebot.apihelper import ApiTelegramException
 import schedule
 
-# основнйо бот
-bot = telebot.TeleBot("5841618545:AAEd-BRsbCak65TAUGSYvGYJ6yiW_YD8Nik")
+# основной бот
+bot = telebot.TeleBot() # токен телеграмм бота
 
 join_file = open("join.txt")
 join_users = set()
